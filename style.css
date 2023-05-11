@@ -1,0 +1,54 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-between;
+    background-color: teal;
+    width: 80%;
+    height: 600px;
+    font-family: Hanken Grotesk;
+    padding: 10%;
+    max-width: 100%;
+
+  }
+  .card1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: antiquewhite;
+    width: 30%;
+    height: 350px;
+    margin-left: 25%;
+    border-radius: 10px;
+  }
+  .card2{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 360px;
+    border-radius: 10px 10px 10px 10px;
+    border: 1px solid hsl(241, 100%, 89%);
+    margin-left: 10px;
+    border: 3px solid aqua;
+  }
+  img{
+    width: 320px;
+    height: 350px;
+    border-radius: 10px;
+    border: 3px solid aqua;
+  }
+  h1{font-weight: 800 bolder; padding-top: 0; color: hsl(0, 0%, 100%); margin-left: 10px;}
+  h4{ font-weight: 300; margin-left: 10px; color: hsl(223, 29%, 91%); }
+  p{font-weight: 500; color: hsl(240, 20%, 95%); text-align: center; margin-top: 0;}
+
+ .btn{
+    margin-left: 15px;
+    margin-top: 0;
+    height: 50px;
+    width: 250px;
+    border: none;
+    border-radius: 30px;
+    background-color: hsla(256, 72%, 46%, 1);
+    color: hsl(0, 0%, 100%);
+  }
+  .btn:hover{background-color: hsl(224, 30%, 27%);}
